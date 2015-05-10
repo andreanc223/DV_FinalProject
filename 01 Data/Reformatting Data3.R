@@ -2,7 +2,7 @@ setwd("C:/cs329e/DataVisualization/DV_FinalProject/01 Data")
 # file_path <- "Sample - Superstore - English (Extract).csv"
 # measures <- c("Customer_ID", "Discount", "Number_of_Records", "Order_ID", "Order_Quantity", "Product_Base_Margin", "Profit", "Sales", "Shipping_Cost", "Unit_Price" )
 
-file_path <- "PTACTIVITY.csv"
+file_path <- "TACTIVITY.csv"
 
 df <- read.csv(file_path, stringsAsFactors = FALSE)
 
@@ -24,7 +24,7 @@ for(d in dimensions) {
   # Change & to and in dimensions.
   df[d] <- data.frame(lapply(df[d], gsub, pattern="&",replacement= " and "))
   # Change : to ; in dimensions.
-  df[d] <- data.frame(lapply(df[d], gsub, pattern=":",replacement= ";"))
+  df[d] <- data.frame(lapply(df[d], gsub, pattern=":",replacement= "."))
 }
 
 library(lubridate)
