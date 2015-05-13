@@ -119,3 +119,38 @@ Here is a list of definitions for all the variables.
 
 ![](./JobAge.PNG) 
 
+**Visualization 10**    
+**Analysis**: Average Caffeine Level vs Alertness (Inner Join)    
+
+```{r fig.width=10, fig.height=10}
+source("../02 Data Wrangling/df_alert_caffeine.R", echo= TRUE)
+```
+
+**Visualization 11**    
+**Analysis**: Sleep Quality Compared to Activity Type (Left Join)    
+
+```{r fig.width=10, fig.height=10}
+source("../02 Data Wrangling/df_sleep_activity.R", echo= TRUE)
+```
+
+**Visualization 12**    
+**Analysis**: Alertness Levels Compared to Schedule Type (Inner Join)    
+
+```{r fig.width=10, fig.height=10}
+source("../02 Data Wrangling/df_alertness_schedtype.R", echo= TRUE)
+```
+
+**Visualization 13**    
+**Analysis**: Sleep Quality and Length Compared to Job Length (Right Join)    
+
+```{r fig.width=10, fig.height=10}
+source("../02 Data Wrangling/df_sleep_joblength.R", echo= TRUE)
+```
+
+**Visualization 14**    
+**Analysis**: Total Years Worked vs Job Security and New Hire Oversight    
+
+```{r fig.width=10, fig.height=10}
+source("../02 Data Wrangling/df_jobsecurity_yearsofservice.R", echo= TRUE)
+```
+ 
