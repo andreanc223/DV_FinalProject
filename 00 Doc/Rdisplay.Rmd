@@ -12,13 +12,21 @@ Our **dataset** is compiled of data from railroad employees and their sleep and 
 2) TSleepAlert
 3) TActivity
 
-**Variable Definitions**
-Here is a list of definitions for all the variables.
-![](./BackgroundData1.PNG)
-![](./BackgroundData2.PNG)
-![](./BackgroundData3.PNG)
+**Variable Definitions**  
+Here is a list of definitions for all the variables.  
+![](./BackgroundData1.PNG)  
+![](./BackgroundData2.PNG)  
+![](./BackgroundData3.PNG)  
 
-##Four Data Blending Visualizations
+**Reformatting**   
+Reformatted the data.  
+![](./Reformatting.PNG)  
+
+**Tableau Data Sourcing from Oracle**  
+Pull information from SQL Server into Tableau.  
+![](./Tableau.PNG)
+
+##Data Blending Visualizations  
 
 **Visualization 1** 
 **Analysis**:  Although slight differences in sleep length at the low and high of each sleep quality, there appears to be a near 1 to 1 relation between sleep quality and sleep length regardless of sleep location.    
