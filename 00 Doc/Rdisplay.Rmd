@@ -129,7 +129,7 @@ Pull information from SQL Server into Tableau.
 
 **Visualization 10**    
 **Title**: Average Caffeine Level vs Alertness (Inner Join)    
-**Analysis**: Expect alertness to go up as caffeine amount went up, but data showed opposite trend
+**Analysis**: Expect alertness to go up as caffeine amount went up, but data showed opposite trend.  
 
 ```{r fig.width=10, fig.height=10}
 source("../02 Data Wrangling/df_alert_caffeine.R", echo= TRUE)
@@ -137,7 +137,7 @@ source("../02 Data Wrangling/df_alert_caffeine.R", echo= TRUE)
 
 **Visualization 11**    
 **Title**: Sleep Quality Compared to Activity Type (Left Join)    
-**Analysis**: Expected sleep quality to be highest for personal time, data showed that sleep quality was lowest at personal time
+**Analysis**: Expected sleep quality to be highest for personal time, data showed that sleep quality was lowest at personal time.  
 
 ```{r fig.width=10, fig.height=10}
 source("../02 Data Wrangling/df_sleep_activity.R", echo= TRUE)
@@ -145,7 +145,7 @@ source("../02 Data Wrangling/df_sleep_activity.R", echo= TRUE)
 
 **Visualization 12**    
 **Title**: Alertness Levels Compared to Schedule Type (Inner Join)  
-**Analysis**: Expected alertness level to be higher for straight through schedule workers, but data showed no strong relation between two factors
+**Analysis**: Expected alertness level to be higher for straight thru schedule employees, but data showed no strong relation between two factors.  
 
 ```{r fig.width=10, fig.height=10}
 source("../02 Data Wrangling/df_alertness_schedtype.R", echo= TRUE)
@@ -153,7 +153,7 @@ source("../02 Data Wrangling/df_alertness_schedtype.R", echo= TRUE)
 
 **Visualization 13**    
 **Title**: Sleep Quality and Length Compared to Job Length (Right Join)    
-**Analysis**: No strong relation between sleep quality and length to job length. 
+**Analysis**: No strong relation between sleep quality and length to job length. Plot shows high concentration of employees with sleep length 4 and and sleep quality 4 from job length of 5 to 15.  
 
 ```{r fig.width=10, fig.height=10}
 source("../02 Data Wrangling/df_sleep_joblength.R", echo= TRUE)
@@ -161,7 +161,7 @@ source("../02 Data Wrangling/df_sleep_joblength.R", echo= TRUE)
 
 **Visualization 14**    
 **Title**: Total Years Worked vs Job Security and New Hire Oversight    
-**Analysis**: Expected to see job security stress to go down as total years worked went up, but did not see this  
+**Analysis**: Expected to see job security stress to go down as total years worked went up, but did not see strong relation between the two factors.  
 
 ```{r fig.width=10, fig.height=10}
 source("../02 Data Wrangling/df_jobsecurity_yearsofservice.R", echo= TRUE)
