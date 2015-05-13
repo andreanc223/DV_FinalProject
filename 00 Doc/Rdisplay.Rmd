@@ -73,7 +73,7 @@ Pull information from SQL Server into Tableau.
 ![](./DataVis4.PNG) 
 
 **Visualization 5**    
-**Analysis**: Overview of factors that related to sleep quality  
+**Analysis**: Overview of factors that related to sleep quality. Showed that falling asleep was the factor that changed the most with changing sleep quality.
 **Columns**: Sleep Quality  
 **Rows**: Measure Names  
 **Color**: Measure Values  
@@ -84,7 +84,7 @@ Pull information from SQL Server into Tableau.
 ![](./MeasurevsSleep.PNG)
 
 **Visualization 6**    
-**Analysis**: Time Spent per Activity  
+**Analysis**: Time Spent per Activity. Looked at the time spent per person per activity type and found that sleep, personal time, and work time were the most time intensive activities.
 **Columns**: ID Number  
 **Rows**: Activity, AVG(Activity Time)  
 **Color**: Activity  
@@ -95,7 +95,7 @@ Pull information from SQL Server into Tableau.
 ![](./ActivityvsTime-1.PNG) 
 
 **Visualization 7**    
-**Analysis**: Time Spent per Activity version 2    
+**Analysis**: Time Spent per Activity version 2. This plot was a more detailed display of the previous plot; it included labels of percentages of total activity per activity.  
 **Columns**: AVG(Activity Time)   
 **Rows**: ID Number  
 **Color**: Activity  
@@ -107,7 +107,7 @@ Pull information from SQL Server into Tableau.
 ![](./AtivityvsTime2-1.PNG) 
 
 **Visualization 8**    
-**Analysis**: Group Analysis   
+**Analysis**: Group Analysis. This plot showed no relation between individuals who had more work time, more personal time, or no difference between the two.  
 **Columns**: ID Number  
 **Rows**: Falling Asleep, Sleep Quality, Sleep Length, Sleep Loss, Daily Caffeine
 **Steps**:  
@@ -116,7 +116,7 @@ Pull information from SQL Server into Tableau.
 ![](./groupanalysis.PNG) 
 
 **Visualization 9**    
-**Analysis**: Age Status per Job    
+**Analysis**: Age Status per Job. Showed that Brakemen differed the most from the total average age of employees and were perceived to be older than they actually were. 
 **Columns**: Job  
 **Rows**: AVG(Age), AVG(Perceived Age)   
 **Steps**:  
@@ -128,35 +128,40 @@ Pull information from SQL Server into Tableau.
 ![](./JobAge.PNG) 
 
 **Visualization 10**    
-**Analysis**: Average Caffeine Level vs Alertness (Inner Join)    
+**Title**: Average Caffeine Level vs Alertness (Inner Join)    
+**Analysis**: Expect alertness to go up as caffeine amount went up, but data showed opposite trend
 
 ```{r fig.width=10, fig.height=10}
 source("../02 Data Wrangling/df_alert_caffeine.R", echo= TRUE)
 ```
 
 **Visualization 11**    
-**Analysis**: Sleep Quality Compared to Activity Type (Left Join)    
+**Title**: Sleep Quality Compared to Activity Type (Left Join)    
+**Analysis**: Expected sleep quality to be highest for personal time, data showed that sleep quality was lowest at personal time
 
 ```{r fig.width=10, fig.height=10}
 source("../02 Data Wrangling/df_sleep_activity.R", echo= TRUE)
 ```
 
 **Visualization 12**    
-**Analysis**: Alertness Levels Compared to Schedule Type (Inner Join)    
+**Title**: Alertness Levels Compared to Schedule Type (Inner Join)  
+**Analysis**: Expected alertness level to be higher for straight through schedule workers, but data showed no strong relation between two factors
 
 ```{r fig.width=10, fig.height=10}
 source("../02 Data Wrangling/df_alertness_schedtype.R", echo= TRUE)
 ```
 
 **Visualization 13**    
-**Analysis**: Sleep Quality and Length Compared to Job Length (Right Join)    
+**Title**: Sleep Quality and Length Compared to Job Length (Right Join)    
+**Analysis**: No strong relation between sleep quality and length to job length. 
 
 ```{r fig.width=10, fig.height=10}
 source("../02 Data Wrangling/df_sleep_joblength.R", echo= TRUE)
 ```
 
 **Visualization 14**    
-**Analysis**: Total Years Worked vs Job Security and New Hire Oversight    
+**Title**: Total Years Worked vs Job Security and New Hire Oversight    
+**Analysis**: Expected to see job security stress to go down as total years worked went up, but did not see this  
 
 ```{r fig.width=10, fig.height=10}
 source("../02 Data Wrangling/df_jobsecurity_yearsofservice.R", echo= TRUE)
