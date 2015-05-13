@@ -29,6 +29,7 @@ Pull information from SQL Server into Tableau.
 ##Data Blending Visualizations  
 
 **Visualization 1** 
+**Title:** Sleep quality vs Sleep Location/Length  
 **Analysis**:  Although slight differences in sleep length at the low and high of each sleep quality, there appears to be a near 1 to 1 relation between sleep quality and sleep length regardless of sleep location.    
 **Columns**:  Sleep Quality  
 **Rows**: Sleep Location, AVG(Sleep Length)   
@@ -41,6 +42,7 @@ Pull information from SQL Server into Tableau.
 ![](./DataVis1.PNG)
 
 **Visualization 2**   
+**Title**: Caffeine Amount vs Start/End Alertness  
 **Analysis**: 1-3 cups of caffeine shows the highest average start/end alertness with the smallest drop in start to end alertness.    
 **Columns**: Caffeine Amount    
 **Rows**: AVG(Start Alertness), AVG(End Alertness)   
@@ -52,7 +54,8 @@ Pull information from SQL Server into Tableau.
 3. Filtered to remove null values
 ![](./DataVis2.PNG)
 
-**Visualization 3** 
+**Visualization 3**  
+**Title**: Years in Present Job vs Stress  
 **Analysis**:  The overall stress levels drop after year 16, with number of employees decreasing as well.   
 **Columns**: Years in present job  
 **Rows**: AVG(Work Schedule), AVG(Job Security), AVG(Staffing)  
@@ -63,6 +66,7 @@ Pull information from SQL Server into Tableau.
 ![](./DataVis3.PNG)  
 
 **Visualization 4**    
+**Title**: Age vs Weekly Work Hours  
 **Analysis**: Employees overall worked on average 40-59 hours a week.    
 **Columns**: Age 
 **Rows**: Weekly Work Hours  
